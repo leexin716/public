@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "components/load-more/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "leeyasuo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#3c3c3c",
+    "selectedColor": "#f7053e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/home.png",
+        "selectedIconPath": "img/home_sel.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "img/mine.png",
+        "selectedIconPath": "img/mine_sel.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class='contain'>
+  <i-button type="ghost" bind:click="handleText" disabled>只显示文本</i-button>
+  <i-button type="primary" bind:click="handleText" shape="circle" loading='{{loading}}' disabled>只显示文本</i-button>
+  <i-toast id="toast" />
+  
+</view>
